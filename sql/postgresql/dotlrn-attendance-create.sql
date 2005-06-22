@@ -131,3 +131,5 @@ select acs_sc_binding__new (
 	    'dotlrn_applet',
 	    'dotlrn_attendance'
 );
+
+\i dotlrn-attendance-admin-portlet-create.sql

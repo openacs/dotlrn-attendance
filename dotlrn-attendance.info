@@ -13,7 +13,8 @@
 
         <!-- No dependency information -->
         <provides url="dotlrn-attendance" version="0.1d"/>
-        <requires url="dotlrn" version="1.0"/>
+        <requires url="attendance" version="0.1d"/>
+        <requires url="dotlrn" version="2.1.2d1"/>
 
         <parameters>
         <!-- No version parameters -->
