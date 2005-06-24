@@ -6,7 +6,7 @@ declare
 begin
   ds_id := portal_datasource__new(
          ''dotlrn_attendance_admin_portlet'', --     name
-         ''Displays the dotlrn_attendance_admin'' --     description
+         ''Displays the Attendance Admin'' --     description
   );
 
   -- 4 defaults procs

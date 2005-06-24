@@ -175,15 +175,15 @@ namespace eval dotlrn_attendance {
     } {
         Clone this applet's content from the old community to the new one
     } {
-        ns_log notice "Cloning: [applet_key]"
-        set new_package_id [add_applet_to_community $new_community_id]
-        set old_package_id [dotlrn_community::get_applet_package_id \
-            -community_id $old_community_id \
-            -applet_key [applet_key]
-        ]
-
-        db_exec_plsql call_attendance_clone {}
-        return $new_package_id
+        # ns_log notice "Cloning: [applet_key]"
+        # set new_package_id [add_applet_to_community $new_community_id]
+        # set old_package_id [dotlrn_community::get_applet_package_id \
+        #    -community_id $old_community_id \
+        #    -applet_key [applet_key]
+        #]
+        # db_exec_plsql call_attendance_clone {}
+        # return $new_package_id
+        add_applet_to_community $new_community_id
     }
 
     ad_proc -public change_event_handler {

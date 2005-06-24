@@ -98,3 +98,5 @@ select acs_sc_binding__delete (
 	    'dotlrn_applet',
 	    'dotlrn_attendance'
 );
+
+\i dotlrn-attendance-admin-portlet-drop.sql
