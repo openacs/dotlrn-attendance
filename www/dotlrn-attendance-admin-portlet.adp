@@ -1,0 +1,1 @@
+<include src=/packages/attendance/lib/cp-attendance>
